@@ -1,19 +1,10 @@
-# [ngrok docs](https://ngrok.com/docs)
-
-Source code for [ngrok docs](https://ngrok.com/docs); feel free to suggest changes and improvements to our documentation!
-
-## Contributing
-
-See our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on how to help improve ngrok documentation.
-
-## Getting Started
-
-ngrok is built using [Docusaurus 3](https://docusaurus.io/).
-
-The fastest and safest (isolated) way to run the documentation is with the Docker command below, then browse to http://localhost:3000/docs.
-
-```sh
-docker run --rm -p 3000:3000 -it --name=ngrokDocs -v "./:/app" -w "/app" --platform=linux/amd64 guergeiro/pnpm:22-9-alpine sh -c "apk add direnv; direnv allow; pnpm install; pnpm run start"
+cd ~/ai-education-platform
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/ai-education-platform.git
+git push -u origin main
 ```
 
 Otherwise, you can install and run everything on your local host.
